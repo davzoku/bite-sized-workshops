@@ -4,7 +4,18 @@ project:
 website:
   title: "bite-sized-workshops"
   navbar:
-    left:
+    left: 
+      - text: "R Series"
+        menu: 
+        - text: "Episode 1"
+          href: Episode1.html
+      - text: "Now You See It!"
+        href: introTableau.html
+      - text: "Introduction QGIS"
+        href: introQGIS.html
+      - text: "Google"
+        href: https://google.com        
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
